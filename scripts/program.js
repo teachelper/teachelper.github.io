@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 		l = k / students;
 		g = val[5] + val[6] + val[7] + val[8] + val[9];
 		f = Math.round((g / students) * 100);
-		jQuery('#result').html('Cтепень обучености класса(в порцентах): '+q+
+		jQuery('#result').html('Cтепень обучености класса(в процентах): '+q+
 			'<br>на 1-2 '+(val[0]+val[1])+' учеников, в процентах '+(((val[0]+val[1])/students)*100).toFixed(2)+
 			'<br>на 3-4 '+(val[2]+val[3])+' учеников, в процентах '+(((val[2]+val[3])/students)*100).toFixed(2)+
 			'<br>на 5-6 '+(val[4]+val[5])+' учеников, в процентах '+(((val[4]+val[5])/students)*100).toFixed(2)+
