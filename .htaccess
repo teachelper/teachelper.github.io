@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} teachelper.ml
-RewriteRule (.*) http://teachelper.github.io/$1 [R=301,L]
